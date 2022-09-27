@@ -1,0 +1,50 @@
+Q1.What are the different types of HTTP requests?
+Ans. In order to specify the desired action to be taken for a certain resource, HTTP specifies a number of request methods. These request methods are commonly referred to as HTTP verbs, even though they can also be nouns. Although each of them implements a different semantic, a number of them have the following qualities in common: For instance, a request method might be cacheable, safe, or idempotent.
+
+HTTP Reqests ==> GET, POST, DELETE,HEAD, PUT,CONNECT,ETC
+
+Q2. Explain the concept of middleware in Node.js.
+Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. The next middleware function is commonly denoted by a variable named next.
+
+1.As name suggests it comes in middle of something and that is request and response cycle
+2.Middleware has access to request and response object
+3.Middleware has access to next function of request-response life cycle
+
+Q3. What is CROS
+Ans.CORS stands for Cross-Origin Resource Sharing. It allows us to relax the security applied to an API. This is done by bypassing the Access-Control-Allow-Origin headers, which specify which origins can access the API.
+In other words, CORS is a browser security feature that restricts cross-origin HTTP requests with other servers and specifies which domains access your resources.
+
+An API is a set procedure for two programs to communicate. This means that API resources are consumed by other clients and servers. The client and the server have the same origin. In this example, accessing resources will be successful. You’re trying to access resources on your server, and the same server handles the request.
+
+Q4. What is Express. how it helps you to create a backend application?
+
+Express.JS is one of the most popular server-side frameworks built for Node.JS. It is written in JavaScript which is a commonly used programming language. Express.JS is a part of the MEAN, MERV, and the MERN stacks. It provides a plethora of plugins, templates, code, routing functionalities, etc. to aid web development. The framework even allows third-party integration of libraries and features that Express.JS developers use for making customization easier.
+
+Express.JS can be used to make the following types of apps:
+Single-page apps
+Reusable apps
+Enterprise web applications
+RESTful APIs
+E-commerce Web Applications
+
+Q5. Explain min 5 status codes gets 
+Ans. 
+301 — Moved Permanently;
+302 — Found;
+304 — Not Modified;
+305 — Use Proxy;
+307 — Temporary Redirect.
+400: Bad Request;
+401: Unauthorized;
+403: Forbidden;
+404: Not Found;
+408: Request Timeout;
+410: Gone;
+418: A teapot;
+429: Too Many Requests.
+
+Q6. Difference between HTTP and HTTPS
+Ans.
+HTTPS is HTTP with encryption and verification. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses, and to digitally sign those requests and responses. As a result, HTTPS is far more secure than HTTP. A website that uses HTTP has http:// in its URL, while a website that uses HTTPS has https://.
+
+TLS vs SSL certificate, both perform the same task of encrypting data exchange. TLS was an update and secure version of SSL.
