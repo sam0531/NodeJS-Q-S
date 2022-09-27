@@ -1,0 +1,36 @@
+#Q1 What is Node.JS?
+Ans. Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine (i.e. V8 engine) and executes JavaScript code outside a web browser, which was designed to build scalable network applications. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
+
+
+# Q2 What is NPM?
+Ans. NPM is the world's largest Software Registry.The registry contains over 800,000 code packages.Open-source developers use npm to share software.Many organizations also use npm to manage private development.
+
+Using npm is Free
+npm is free to use.You can download all npm public software packages without any registration or logon.
+
+
+Command Line Client
+
+npm includes a CLI (Command Line Client) that can be used to download and install software:
+
+Installing npm:
+
+npm is installed with Node.js
+
+This means that you have to install Node.js to get npm installed on your computer.
+
+Download Node.js from the official Node.js web site: https://nodejs.org
+
+Q3. What are the different modules in Node.JS?
+Ans.  In Node.js, Modules are the blocks of encapsulated code that communicates with an external application on the basis of their related functionality. Modules can be a single file or a collection of multiples files/folders. The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks.
+
+Modules are of three types:
+
+Core Modules local Modules Third-party Modules
+
+Q4. What is the purpose of the module.exports?
+Ans. Module exports are the instructions that tell Node. js which bits of code (functions, objects, strings, etc.) to export from a given file so that other files are allowed to access the exported code
+
+Q5. Difference between default export and named export?
+Ans.  Module exports are the instructions that tell Node. js which bits of code (functions, objects, strings, etc.) to export from a given file so that other files are allowed to access the exported code.
+
