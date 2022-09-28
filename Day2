@@ -48,3 +48,7 @@ Ans.
 HTTPS is HTTP with encryption and verification. The only difference between the two protocols is that HTTPS uses TLS (SSL) to encrypt normal HTTP requests and responses, and to digitally sign those requests and responses. As a result, HTTPS is far more secure than HTTP. A website that uses HTTP has http:// in its URL, while a website that uses HTTPS has https://.
 
 TLS vs SSL certificate, both perform the same task of encrypting data exchange. TLS was an update and secure version of SSL.
+
+
+Q7. What is JWT Tockens?
+Ans. JSON Web Token is an open standard for securely transferring data within parties using a JSON object. JWT is used for stateless authentication mechanisms for users and providers, this means maintaining session is on the client-side instead of storing sessions on the server.
